@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+
+.phone {
+    background: #F5F5F5;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    &__card {
+        height: 450px;
+        width: 250px;
+        background: white;
+        margin: 2px;
+        padding: 20px;
+        font-family: sans-serif;
+        .phone-model {
+            .phone-model__img {
+                width: 95%;
+                display: block;
+                margin: 0 auto;
+            }
+            .phone-model__color {
+                display: flex;
+                justify-content: center;
+                margin: 7px 5px;
+                .phone-model__color_red {
+                    height: 16px;
+                    width: 16px;
+                    background: #ff0000;
+                    border-radius: 8px;           
+                }
+                .phone-model__color_black {
+                    height: 16px;
+                    width: 16px;
+                    background: black;
+                    border-radius: 8px;
+                }
+                .phone-model__color_green {
+                    height: 16px;
+                    width: 16px;
+                    background: green;
+                    border-radius: 8px;
+                }
+            }
+            .phone-model__name {
+                color: #696969
+            }
+        }
+        .phone-details-sale {
+            .phone-details-sale__credit {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 13px;
+                .phone-details-sale__credit_procents {
+                    display: flex;
+                    align-items: center;
+                    .phone-details-sale-procents-img {
+                        width: 19px;
+                    }
+                    .phone-details-sale-procents-month {
+                        margin-left: 5px;
+                        color: #696969;
+                        font-size: small;
+                    }
+                }
+                .phone-details-sale__credit_parts {
+                    display: flex;
+                    align-items: center;
+                    .phone-details-sale-parts-img {
+                        width: 19px;
+                    }
+                    .phone-details-sale-parts-month {
+                        margin-left: 5px;
+                        color: #696969;
+                        font-size: small;
+                    }
+                }
+                .phone-details-sale__credit_fishka {
+                    display: flex;
+                    align-items: center;
+                    .phone-details-sale-fishka-img {
+                        width: 19px;
+                    }
+                    .phone-details-sale-fishka {
+                        margin-left: 5px;
+                        color: #696969;
+                        font-size: small;
+                    }
+                }
+            }
+            .phone-details-sale__likes {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 13px;
+                .phone-details-sale__likes_grade {
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: start;
+                    .phone-details-sale-grade-img {
+                        width: 13px;
+                        margin-right: 2px;
+                    }
+                    .phone-details-sale-grade {
+                        color: #FF4500;
+                        font-size: small;
+                        margin-left: 5px;
+                    }
+                }
+                .phone-details-sale__likes_comments {
+                    display: flex;
+                    align-items: center;
+                    .phone-details-sale-comments-img {
+                        width: 19px;
+                    }
+                    .phone-details-sale-comments {
+                        color: #4682B4;
+                        font-size: small;
+                        margin-left: 5px;
+                    }
+                    .phone-details-sale__likes_comparison {
+                        width: 19px;
+                    }
+                    .phone-details-sale__likes_like {
+                        width: 19px;
+                    }
+                }
+            }
+            .phone-details-sale__price {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 10px;
+                .phone-details-sale__price_hrn {
+                    font-size: x-large;
+                    font-weight: bold;
+                }
+                .phone-details-sale__price_bag {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}

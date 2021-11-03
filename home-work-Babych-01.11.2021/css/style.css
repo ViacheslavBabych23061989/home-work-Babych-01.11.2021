@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.phone {
+  background: #F5F5F5;
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.phone__card {
+  height: 450px;
+  width: 250px;
+  background: white;
+  margin: 2px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.phone__card .phone-model .phone-model__img {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+.phone__card .phone-model .phone-model__color {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 7px 5px;
+}
+
+.phone__card .phone-model .phone-model__color .phone-model__color_red {
+  height: 16px;
+  width: 16px;
+  background: #ff0000;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.phone__card .phone-model .phone-model__color .phone-model__color_black {
+  height: 16px;
+  width: 16px;
+  background: black;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.phone__card .phone-model .phone-model__color .phone-model__color_green {
+  height: 16px;
+  width: 16px;
+  background: green;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.phone__card .phone-model .phone-model__name {
+  color: #696969;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-top: 13px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_procents {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_procents .phone-details-sale-procents-img {
+  width: 19px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_procents .phone-details-sale-procents-month {
+  margin-left: 5px;
+  color: #696969;
+  font-size: small;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_parts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_parts .phone-details-sale-parts-img {
+  width: 19px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_parts .phone-details-sale-parts-month {
+  margin-left: 5px;
+  color: #696969;
+  font-size: small;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_fishka {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_fishka .phone-details-sale-fishka-img {
+  width: 19px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__credit .phone-details-sale__credit_fishka .phone-details-sale-fishka {
+  margin-left: 5px;
+  color: #696969;
+  font-size: small;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 13px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_grade {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_grade .phone-details-sale-grade-img {
+  width: 13px;
+  margin-right: 2px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_grade .phone-details-sale-grade {
+  color: #FF4500;
+  font-size: small;
+  margin-left: 5px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_comments {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_comments .phone-details-sale-comments-img {
+  width: 19px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_comments .phone-details-sale-comments {
+  color: #4682B4;
+  font-size: small;
+  margin-left: 5px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_comments .phone-details-sale__likes_comparison {
+  width: 19px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__likes .phone-details-sale__likes_comments .phone-details-sale__likes_like {
+  width: 19px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__price .phone-details-sale__price_hrn {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.phone__card .phone-details-sale .phone-details-sale__price .phone-details-sale__price_bag {
+  width: 50px;
+}
+/*# sourceMappingURL=style.css.map */
